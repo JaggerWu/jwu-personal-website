@@ -19,8 +19,10 @@ def index(request):
         '               ||----w |     \n'
         '               ||     ||     \n'
     )
+    if True:
+        return HttpResponse('Welcome to JianWu personal site!')
 
-    return render_to_response(
-        'I-am-co-worker.html',
-        {'cow_worker': cow_worker}
-    )
+    return HttpResponse(cow_worker)
+
+def about_me(request):
+    return HttpResponse('This is Jian Wu\'s personal site.')
