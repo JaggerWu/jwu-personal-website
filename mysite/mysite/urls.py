@@ -20,5 +20,5 @@ from jwu_site import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^jwu_site/', views.index, name='index')
+    url(r'^jianwu/', include('jwu_site.urls'))
 ]

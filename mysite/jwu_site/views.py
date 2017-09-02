@@ -7,7 +7,7 @@ from django.template.loader import get_template
 
 
 # Create your views here.
-def index(request):
+def about_me(request):
     # I am a cow-worker!
     cow_worker = (
         '''
