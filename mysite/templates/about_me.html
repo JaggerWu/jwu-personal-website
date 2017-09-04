@@ -1,28 +1,11 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  {%
-      set nav_menus = [[
-        {
-          'name': 'Hash Overview',
-          'url': url_for('cirk_hash.cirk_hash_overview'),
-        }, {
-          'name': 'Hash Search',
-          'url': url_for('cirk_hash.hash_search'),
-        }, {
-          'name': 'Search',
-          'url': url_for('cirk_admin.admin_search'),
-        }
-      ]]
-  %}
-  <div class='post'>
-    <p>
-      My name is Jian Wu. I come from Huanggang, China. I have one bachelor degree with Electronic Information Science and Technology. Now, I am studying for my master degree in København Universitet, Denmark and
-      majoring in IT and Cognition.
-    </p>
-    <p>
-      I have nearly six years experience about programming. In my bachelor, I use C, C++ and Matlab. In master, I touched Python and fell in love with python. Also, I am doing a student developer in CSIS, an IT security
-      campony in Denmark.
-    </p>
+  <center>
+    <div class='post'>
+      <p>
+        My name is Jian Wu. I come from China. I have one bachelor degree of Electronic Information from Lanzhou University in China. Now I am studying for my master degree in IT and Cognition, Københavns Universitet.
+      </p>
     </div>
+  </center>
 {% endblock %}
