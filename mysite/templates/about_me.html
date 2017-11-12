@@ -1,11 +1,15 @@
-{% extends 'base.html' %}
 
-{% block content %}
-  <center>
-    <div class='post'>
-      <p>
-        My name is Jian Wu. I come from China. I have one bachelor degree of Electronic Information from Lanzhou University in China. Now I am studying for my master degree in IT and Cognition, Københavns Universitet.
-      </p>
-    </div>
-  </center>
-{% endblock %}
+
+<center>
+  <div class='post'>
+    <p>
+      My name is Jian Wu. I come from China. I have one bachelor degree
+      on Electronic Information Technology and Science from
+      <a href='http://en.lzu.edu.cn/'>Lanzhou University</a> ,China. I moved
+      to Copenhegen, Denmark in 2016 for my master degree. Now I am studying
+      for my master degree in IT and Cognition,
+      <a href='http://www.ku.dk/'>Københavns Universitet.</a>
+    </p>
+    <a href='{% url "download_cv" %}'>hehe</a>
+  </div>
+</center>

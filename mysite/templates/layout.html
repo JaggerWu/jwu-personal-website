@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8">
+  <link
+    rel='stylesheet'
+    href='/static/bootstrap/css/bootstrap.css'
+  />
+  <script
+    defer
+    type='text/javascript'
+    src='/static/bootstrap/js/bootstrap.js'></script>
+  <script
+    type='text/javascript'
+    src='/static/jquery-3.2.1.min.js'></script>
+  <script
+    type="text/javascript"
+    src='/static/popper.js-1.12.5/dist/umd/popper.js'></script>
+    <title>
+      {% block title %}
+      {% endblock %}
+    </title>
+</head>
+<body　class='home'>
+  <hr>
+    <center>
+      <h3>
+        Hi, I'm Jian Wu
+      </h3>
+    </center>
+  <hr>
+  <div class="container bs-docs-container">
+    {% block maincontent %}
+    {% endblock %}
+  </div>
+</body>

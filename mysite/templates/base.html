@@ -1,29 +1,42 @@
-<!DOCTYPE html>
-<html lang='en'>
-<head>
-  <meta charset="utf-8">
-  <link
-    rel='stylesheet'
-    href='/static/bootstrap/css/bootstrap.css'
-  />
-  <script
-    defer
-    type='text/javascript'
-    src='/static/bootstrap/js/bootstrap.js'></script>
-  <script
-    type='text/javascript' 
-    src='/static/jquery-3.2.1.min.js'></script>
-  <script 
-    type="text/javascript"
-    src='/static/popper.js-1.12.5/dist/umd/popper.js'></script>
-  <title>Jian Wu</title>
-</head>
-<body>
-  <div>
-    <hr>
-      <center>
-        Welcome to Jian Wu's personal website.
-      </center>
-    <hr>
-  </div>
-</body>
+{% extends 'layout.html' %}
+
+{% block title %}
+  Jian Wu
+{% endblock %}
+
+{% block maincontent %}
+  <p>
+    Firstly, I had better introduce myself. My name is Jian Wu. I come from
+    China. I have one bachelor degree on Electronic Information Technology and
+    Science from
+    <a href='http://en.lzu.edu.cn/'>Lanzhou University</a> ,China. I moved
+    to Copenhegen, Denmark in 2016 for my master degree. Now I am studying
+    for my master degree in IT and Cognition,
+    <a href='http://www.ku.dk/'>University of Copenhagen.</a>
+  </p>
+  <p>
+    I am a coder, a hacker, a Machine Learner and a joker. I started coding
+    from 2011. Now, I am a master student in Copenhagen University and a
+    student developer in a Cyber Security Comapny. I work both on the front-
+    and back-ends of systems (everything from making HTML and JavaScript work
+    to tuning Postgresql databases and unit test is part of my daily work.)
+  </p>
+  <p>
+    I am passionate about developing software and new IT technologies.And I am
+    always trying to better myself in both developing technology and Computer
+    science theoriam knowledges, by looking for software which can
+    help me; by studying subjects related to computer science and software
+    engineering litterature [hacker's litterature?]. Now, I specialie in
+    Machine Learning and Deep learning in university. I learn everything about
+    ML and DL from anywhere, both in school and hot papers. Also, I have done
+    some projects about CNN application on Vision recoginition in the
+    university.
+  </p>
+  <p>
+
+  </p>
+  <p>
+    Stay hungery, stay foolish.
+  </p>
+  <code>
+{% endblock %}
