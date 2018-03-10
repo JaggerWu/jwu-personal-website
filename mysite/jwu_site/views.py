@@ -23,7 +23,7 @@ local_path = os.path.dirname(
 
 
 def download_cv(request):
-    file_name = os.path.join(local_path, 'file/Weed_detection.pdf')
+    file_name = os.path.join(local_path, 'file/cv/resume.pdf')
     with open(file_name) as f:
         c = f.read()
 
