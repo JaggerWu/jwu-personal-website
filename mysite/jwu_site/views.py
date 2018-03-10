@@ -6,19 +6,24 @@ from django.shortcuts import render, redirect
 from django.template.loader import get_template
 import os
 
+local_path = os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__))
+)
+
 
 # Create your views here.
 def index(request):
-    return render(request, 'base.html')
+    return render(request, 'index.html')
 
 
 def about_me(request):
     # There are some introduction for myself.
-    return render(request, 'about_me.html')
+    return render(request, 'base.html')
 
-local_path = os.path.dirname(
-    os.path.dirname(os.path.abspath(__file__))
-)
+
+def cv(request):
+    # There are my CV
+    return render(request, 'cv.html')
 
 
 def download_cv(request):
