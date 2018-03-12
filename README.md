@@ -1,7 +1,7 @@
 This is a personal website for Jian Wu
 ======================================
 
-[www.jagger.com](https://wwww.jaggerwu.com)
+[www.jaggerwu.com](www.jaggerwu.com)
 
 ### The website Building 
 
