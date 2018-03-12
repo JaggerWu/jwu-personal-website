@@ -1,7 +1,12 @@
 This is a personal website for Jian Wu
 ======================================
 
-Now, I am a master student in University of Copenhagen, who majors in IT&Cognition.
+[www.jagger.com](https://wwww.jaggerwu.com)
 
-- 2017.08.31 Start this project
-- 2017.09.01 Add `.css` and `.js`.Now, backend code is good.
+### The website Building 
+
+I mainly use [Django](https://www.djangoproject.com/)
+
+### Deployment
+
+I mainly use [Google Cloud](https://cloud.google.com/sdk/docs/quickstart-macos)
