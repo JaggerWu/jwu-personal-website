@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.3.7)  18 APR 2018 21:35
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.3.7)  21 APR 2018 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,7 +665,8 @@ Package hyperref Info: Option `colorlinks' set `false' on input line 95.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/import/import.sty
 Package: import 2009/03/23  v 5.1
-) (./resume.aux)
+)
+No file resume.aux.
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
@@ -771,12 +772,14 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 79.
 LaTeX Info: Redefining \pageref on input line 79.
 LaTeX Info: Redefining \nameref on input line 79.
-
-(./resume.out) (./resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
- (./resume/education.tex
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(./resume/education.tex
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 10.95015pt on input line 22.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
@@ -812,9 +815,10 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 4.99992pt on input line 16.
 Missing character: There is no 　 in font [fonts/SourceSansPro-Light]/OT:script=
 latn;language=DFLT;mapping=tex-text;!
-[1
+ [1
 
-]) (./resume/extracurricular.tex) (./resume/honors.tex [2])
+])
+(./resume/extracurricular.tex) (./resume/honors.tex [2])
 (./resume/presentation.tex) (./resume/committees.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
  [3]
@@ -824,9 +828,9 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 91.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 24300 strings out of 493005
- 433301 string characters out of 6134597
- 630609 words of memory out of 5000000
+ 24294 strings out of 493005
+ 433235 string characters out of 6134597
+ 630494 words of memory out of 5000000
  28023 multiletter control sequences out of 15000+600000
  7445 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

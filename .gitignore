@@ -4,6 +4,9 @@ venv/
 *.sqlite3
 
 .DS_Store
+
+# stuff for building cv
 *.log
 *.out
 *.aux
+*.pdf
