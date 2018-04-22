@@ -10,3 +10,6 @@ venv/
 *.out
 *.aux
 *.pdf
+
+# vagrant stuff
+.vagrant/*
