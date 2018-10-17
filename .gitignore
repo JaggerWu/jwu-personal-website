@@ -13,3 +13,6 @@ venv/
 
 # vagrant stuff
 .vagrant/*
+
+# jpg
+*.jpg
